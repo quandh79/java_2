@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="188.0" layoutY="113.0" prefHeight="31.0" prefWidth="253.0" promptText="Mã CTPN" />
+      <TextField layoutX="188.0" layoutY="172.0" prefHeight="31.0" prefWidth="253.0" promptText="Mã HĐ" />
+      <TextField layoutX="188.0" layoutY="286.0" prefHeight="31.0" prefWidth="253.0" promptText="Số lượng" />
+      <TextField layoutX="188.0" layoutY="338.0" prefHeight="31.0" prefWidth="253.0" promptText="Tổng tiền" />
+      <TextArea layoutX="188.0" layoutY="395.0" prefHeight="119.0" prefWidth="253.0" />
+      <ComboBox layoutX="188.0" layoutY="228.0" prefHeight="31.0" prefWidth="253.0" promptText="Sản phẩm" />
+      <Button layoutX="514.0" layoutY="483.0" mnemonicParsing="false" text="submit" />
+      <Button layoutX="66.0" layoutY="44.0" mnemonicParsing="false" text="&lt;&lt;back" />
+   </children>
+</Pane>

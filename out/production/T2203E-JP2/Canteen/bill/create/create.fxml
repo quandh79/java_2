@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="166.0" layoutY="82.0" prefHeight="31.0" prefWidth="268.0" promptText="Mã hóa đơn" />
+      <TextField layoutX="166.0" layoutY="191.0" prefHeight="31.0" prefWidth="268.0" promptText="Tổng tiền" />
+      <DatePicker layoutX="166.0" layoutY="138.0" prefHeight="31.0" prefWidth="268.0" promptText="Ngày lập hóa đơn" />
+      <TextArea layoutX="166.0" layoutY="240.0" prefHeight="83.0" prefWidth="268.0" promptText="Ghi chú" />
+      <Text fill="#e41010" layoutX="253.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hóa đơn" wrappingWidth="93.45849609375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="42.0" layoutY="22.0" mnemonicParsing="false" text="&lt;&lt;Back" />
+      <Button layoutX="434.0" layoutY="343.0" mnemonicParsing="false" text="Submit" />
+      <Button layoutX="486.0" layoutY="22.0" mnemonicParsing="false" text="New" />
+   </children>
+</Pane>

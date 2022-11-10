@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="canteenManager.hoadon.HoaDonController">
+   <children>
+      <TableView fx:id="tbHoaDon" layoutX="9.0" layoutY="186.0" prefHeight="200.0" prefWidth="575.0">
+        <columns>
+          <TableColumn fx:id="tdHoaDonId" prefWidth="75.0" text="Mã HD" />
+          <TableColumn fx:id="tdHoaDonTotal" prefWidth="168.0" text="Tổng tiền" />
+            <TableColumn fx:id="tdHoaDondate" prefWidth="148.0" text="Ngày lập hóa đơn" />
+            <TableColumn fx:id="tdHoaDonNote" prefWidth="183.0" text="Ghi chú" />
+        </columns>
+      </TableView>
+      <DatePicker layoutX="178.0" layoutY="67.0" prefHeight="31.0" prefWidth="237.0" promptText="Ngày lập hóa đơn" />
+      <TextArea layoutX="178.0" layoutY="114.0" prefHeight="60.0" prefWidth="237.0" promptText="Ghi chú" />
+      <Button layoutX="14.0" layoutY="36.0" mnemonicParsing="false" onAction="#goHome" text="&lt;&lt;Back" />
+      <Button layoutX="526.0" layoutY="36.0" mnemonicParsing="false" onAction="#goCTHD" text="CTHD" />
+      <Button layoutX="526.0" layoutY="144.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="58.0" text="In" />
+      <Text layoutX="247.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hóa Đơn">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

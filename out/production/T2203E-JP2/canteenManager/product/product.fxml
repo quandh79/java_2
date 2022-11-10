@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="canteenManager.product.ProductController">
+    <children>
+        <TableView fx:id="cbProduct" layoutX="26.0" layoutY="90.0" prefHeight="248.0" prefWidth="565.0">
+            <columns>
+                <TableColumn fx:id="idP" prefWidth="75.0" text="Id" />
+                <TableColumn fx:id="pName" prefWidth="218.0" text="Tên sản phẩm" />
+                <TableColumn fx:id="price" prefWidth="117.0" text="Giá " />
+                <TableColumn fx:id="note" prefWidth="151.0" text="Ghi chú" />
+            </columns>
+        </TableView>
+        <Button layoutX="506.0" layoutY="44.0" mnemonicParsing="false" onAction="#goToBill" text="Click Buy" />
+      <Button layoutX="26.0" layoutY="44.0" mnemonicParsing="false" onAction="#goHome" text="&lt;&lt;Back" />
+      <Text layoutX="253.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sản Phẩm">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

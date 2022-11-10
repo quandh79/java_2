@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="Canteen.detail.list.ListDetailController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tbDetail" layoutX="3.0" layoutY="100.0" prefHeight="290.0" prefWidth="592.0">
+        <columns>
+          <TableColumn fx:id="tdId" prefWidth="75.0" text="Ma CTPN" />
+          <TableColumn fx:id="tdIdBill" prefWidth="75.0" text="Ma HD" />
+            <TableColumn fx:id="tdIdProduct" prefWidth="125.0" text="San pham" />
+            <TableColumn fx:id="tdQty" prefWidth="105.0" text="So luong" />
+            <TableColumn fx:id="tdTotal" prefWidth="78.0" text="Tong tien" />
+            <TableColumn fx:id="tdNote" prefWidth="133.0" text="Ghi chu" />
+        </columns>
+      </TableView>
+      <Button layoutX="25.0" layoutY="32.0" mnemonicParsing="false" text="&lt;&lt;Back" />
+      <Button layoutX="502.0" layoutY="32.0" mnemonicParsing="false" text="New" />
+   </children>
+</Pane>

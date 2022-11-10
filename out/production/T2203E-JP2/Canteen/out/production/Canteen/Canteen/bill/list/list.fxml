@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="Canteen.bill.list.BillListController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tbBill" layoutX="5.0" layoutY="100.0" prefHeight="285.0" prefWidth="584.0">
+        <columns>
+          <TableColumn fx:id="tdId" prefWidth="102.0" text="Mã hóa đơn" />
+          <TableColumn fx:id="tdDate" prefWidth="188.0" text="Ngày lập hóa đơn" />
+            <TableColumn fx:id="tdTotal" prefWidth="147.0" text="Tổng tiền" />
+            <TableColumn fx:id="tdNote" prefWidth="128.0" text="Ghi chú" />
+        </columns>
+      </TableView>
+      <Text fill="#fc1010" layoutX="185.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Danh sách hóa đơn" textAlignment="CENTER" wrappingWidth="203.6708984375">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

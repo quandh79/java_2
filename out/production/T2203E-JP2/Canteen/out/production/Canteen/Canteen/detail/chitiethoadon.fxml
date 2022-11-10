@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="6.0" layoutY="115.0" prefHeight="427.0" prefWidth="624.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="STT" />
+          <TableColumn prefWidth="75.0" text="Mã CTPN" />
+            <TableColumn prefWidth="110.0" text="Mã HĐ" />
+            <TableColumn prefWidth="120.0" text="Sản Phẩm" />
+            <TableColumn prefWidth="74.0" text="Số lượng" />
+            <TableColumn prefWidth="92.0" text="Tổng tiền" />
+            <TableColumn prefWidth="75.0" text="Ghi chú" />
+        </columns>
+      </TableView>
+      <TextField layoutX="675.0" layoutY="115.0" prefHeight="31.0" prefWidth="253.0" promptText="Mã CTPN" />
+      <TextField layoutX="675.0" layoutY="172.0" prefHeight="31.0" prefWidth="253.0" promptText="Mã HĐ" />
+      <TextField layoutX="675.0" layoutY="284.0" prefHeight="31.0" prefWidth="253.0" promptText="Số lượng" />
+      <TextField layoutX="675.0" layoutY="338.0" prefHeight="31.0" prefWidth="253.0" promptText="Tổng tiền" />
+      <TextArea layoutX="675.0" layoutY="411.0" prefHeight="119.0" prefWidth="253.0" />
+      <ComboBox layoutX="675.0" layoutY="227.0" prefHeight="31.0" prefWidth="253.0" promptText="Sản phẩm" />
+   </children>
+</Pane>

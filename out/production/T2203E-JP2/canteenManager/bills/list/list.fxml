@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="canteenManager.bills.list.BillListController">
+   <children>
+      <TableView fx:id="tbBills" layoutX="22.0" layoutY="286.0" prefHeight="227.0" prefWidth="587.0">
+        <columns>
+          <TableColumn fx:id="tdIdBill" prefWidth="75.0" text="Mã CTHD" />
+          <TableColumn fx:id="tdBillId" prefWidth="91.0" text="Mã HD" />
+            <TableColumn fx:id="tdProduct" prefWidth="118.0" text="Sản phẩm" />
+            <TableColumn fx:id="tdQty" prefWidth="78.0" text="Số lượng" />
+            <TableColumn fx:id="tdTotal" minWidth="0.0" prefWidth="122.0" text="Thành tiền" />
+            <TableColumn fx:id="tdNote" prefWidth="100.0" text="Ghi chú" />
+        </columns>
+      </TableView>
+      <Button layoutX="258.0" layoutY="226.0" mnemonicParsing="false" onAction="#submit" text="Them" />
+      <TextField fx:id="txtQty" layoutX="96.0" layoutY="168.0" prefHeight="31.0" prefWidth="220.0" promptText="So luong" />
+<!--      <TextField fx:id="txtTotal" layoutX="36.0" layoutY="187.0" promptText="Thanh tien" />-->
+      <ComboBox fx:id="cbProduct" layoutX="96.0" layoutY="116.0" prefHeight="31.0" prefWidth="220.0" promptText="San pham" />
+      <TextArea fx:id="txtNote" layoutX="370.0" layoutY="73.0" prefHeight="149.0" prefWidth="239.0" promptText="Ghi chu" />
+      <Button layoutX="563.0" layoutY="226.0" mnemonicParsing="false" onAction="#delete" text="Xoa" />
+      <TextField fx:id="txtBillId" layoutX="96.0" layoutY="72.0" prefHeight="31.0" prefWidth="220.0" promptText="Ma HD" />
+      <Button layoutX="27.0" layoutY="30.0" mnemonicParsing="false" onAction="#goHome" text="&lt;&lt;Back" />
+      <Button layoutX="530.0" layoutY="30.0" mnemonicParsing="false" onAction="#gotoHoaDon" text="Hóa đơn" />
+      <Text layoutX="28.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ma HD" />
+      <Text layoutX="28.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SL" />
+      <Text layoutX="27.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SP" />
+      <Text layoutX="258.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chi tiết hóa đơn">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
